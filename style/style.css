@@ -75,7 +75,12 @@ header{
     top: -450px;
 
 } */
- 
+/* Sponsor style */
+.sponsors{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    margin: 70px 165px;
+}
 /* Responsive Design */
 @media screen and (max-width:576px)and (min-width:250px){
     .navigation, .nav-list{
@@ -96,6 +101,15 @@ header{
     .banner-content{
         width: 100%;
     }
+    .sponsors{
+        grid-template-columns: repeat(4,1fr);
+        margin: 50px 42px;
+        justify-content: center;
+        align-items: center;
+       
+        row-gap: 20px;
+    }
+   
 }
 
 @media screen and (min-width:577px) and (max-width:996px){
@@ -104,5 +118,13 @@ header{
         }
     .banner{
         flex-direction:column-reverse;
+    }
+    .sponsors{
+        grid-template-columns: repeat(4,1fr);
+        margin: 50px 42px;
+        justify-content: center;
+        align-items: center;
+       
+        row-gap: 20px;
     }
 }
