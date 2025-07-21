@@ -62,7 +62,10 @@ header{
 }
 .banner-img{
     height:475px;
-    width:475px;
-    background-image: url(../images/Circle\ design.svg);
-    background-position: center;
+    width:475px;    
+}
+.img-bg-2{
+    position:relative;
+    top: -450px;
+
 }
