@@ -12,7 +12,7 @@ header{
     margin: auto 120px;
 }
 .navigation{
-    
+
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -65,27 +65,44 @@ header{
     border: none;
 }
 .banner-img{
+    background-image: url("../images/Circle\ design.svg");
+    background-position: center;
     height:475px;
     width:475px;    
 }
-.img-bg-2{
+/* .img-bg-2{
     position:relative;
     top: -450px;
 
-}
+} */
  
 /* Responsive Design */
-@media screen and (max-width:576px){
+@media screen and (max-width:576px)and (min-width:250px){
     .navigation, .nav-list{
         flex-direction: column;
         }
     .banner{
         flex-direction:column-reverse;
     }
+    .img-bg-1, .img-bg-2{
+        width: 100%;
+        height: 100%;
+    }
     .banner-img{
         margin:auto 20px;
+        width:100%;
+        height: 100%;
     }
     .banner-content{
         width: 100%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:996px){
+    .navigation, .nav-list{
+        flex-direction: column;
+        }
+    .banner{
+        flex-direction:column-reverse;
     }
 }
