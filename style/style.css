@@ -63,6 +63,6 @@ header{
 .banner-img{
     height:475px;
     width:475px;
-    background-image: url(/images/Circle\ design.svg);
+    background-image: url(../images/Circle\ design.svg);
     background-position: center;
 }
